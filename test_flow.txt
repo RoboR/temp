@@ -1,0 +1,427 @@
+
+
+***********************************************************************
+* Qualcomm Atheros Radio Tool 2 for Internet of Everything (ART2_IoE) *
+***********************************************************************
+
+
+*********************************************
+* INITIALIZATION IN PROGRESS...PLEASE, WAIT *
+*********************************************
+Gui server listening...
+
+5103 INFO Connected to control process on localhost:2398.
+6102 INFO ProductList.ref has been loaded
+7002 INFO Command file "start.art" opened at 4181825.
+7002 INFO Command file ".\..\command\test_flow_flags_ar6004.art" opened at 4181825.
+5000 INFO Trying to connect to nart[0] on localhost:2390.
+5001 INFO Connected to nart[0] on localhost:2390.
+
+dll-devid 0, name auto
+[0] 5109 INFO Accepted control connection from client 0.
+7002 INFO Command file ".\..\command\refDesigns\AR6004\ar6004.art" opened at 4181825.
+7300 INFO Command in progress. Try "pause", "continue", or "stop". "version" command queued for later processing.
+7300 INFO Command in progress. Try "pause", "continue", or "stop". "hello" command queued for later processing.
+7300 INFO Command in progress. Try "pause", "continue", or "stop". "load" command queued for later processing.
+4047 INFO |setconfig|EEPROM_FILE|./boardData_2_1_SP242.bin|
+7300 INFO Command in progress. Try "pause", "continue", or "stop". "get" command queued for later processing.
+7300 INFO Command in progress. Try "pause", "continue", or "stop". "help" command queued for later processing.
+7300 INFO Command in progress. Try "pause", "continue", or "stop". "error" command queued for later processing.
+4047 INFO |setconfig|DEVCON_RESET|1|
+4047 INFO |setconfig|RESET_SD_HOST|1|
+4047 INFO |setconfig|DEVDRV_INTERFACE|4|
+[0] 6501 WARNING Unable to find device dll "ar9287".
+[0] 6501 WARNING Unable to find device dll "ar946x".
+[0] 6501 WARNING Unable to find device dll "ar956x".
+[0] 6501 WARNING Unable to find device dll "AR9485".
+[0] 6501 WARNING Unable to find device dll "ar9300".
+[0] 6501 WARNING Unable to find device dll "ar9300Aquila".
+[0] 6501 WARNING Unable to find device dll "qc98xx".
+[0] 6606 INFO Link control functions loaded for "Ar6K" from "C:\app\qualcomm\art2_ioe.win.3.2_installer-00068.1\bin\LinkAr6K.DLL".
+loaded DLL Ar6004 successfully for instance 0 !!!
+
+[0] 6507 INFO Reading Board Data File C:\app\qualcomm\art2_ioe.win.3.2_installer-00068.1\bin\..\driver\boardData\./boardData_2_1_SP242.bin
+[0] 6025 INFO Calibration information read from a file.
+[0] 6024 INFO Free memory for initialization and calibration is 43024192 (43030336 - 6144) bytes.
+[0] 6000 INFO Loaded card.
+7300 INFO Command in progress. Try "pause", "continue", or "stop". "get" command queued for later processing.
+7000 INFO Command file ".\..\command\refDesigns\AR6004\ar6004.art" completed at 4187191. Elapsed time was 5366 ms.
+7002 INFO Command file ".\..\command\setupcal_scheme0.art" opened at 4187191.
+7000 INFO Command file ".\..\command\setupcal_scheme0.art" completed at 4187191. Elapsed time was 0 ms.
+7000 INFO Command file ".\..\command\test_flow_flags_ar6004.art" completed at 4187191. Elapsed time was 5366 ms.
+7000 INFO Command file "start.art" completed at 4187191. Elapsed time was 5366 ms.
+7172 INFO Initialization complete. Waiting for commands.
+
+
+******************************************
+* INITIALIZATION DONE...PLEASE, CONTINUE *
+******************************************
+7170 INFO CartVersion: 4.4;CartBuildDate: 4518032; CartBuildTime: 4518040
+7300 INFO Command in progress. Try "pause", "continue", or "stop". "reference" command queued for later processing.
+7300 INFO Command in progress. Try "pause", "continue", or "stop". "get" command queued for later processing.
+7300 INFO Command in progress. Try "pause", "continue", or "stop". "get" command queued for later processing.
+4047 INFO |SetCal|scheme|0|
+7300 INFO Command in progress. Try "pause", "continue", or "stop". "get" command queued for later processing.
+7300 INFO Command in progress. Try "pause", "continue", or "stop". "get" command queued for later processing.
+7300 INFO Command in progress. Try "pause", "continue", or "stop". "channel" command queued for later processing.
+4047 INFO |SetCal|CalibrationAttempt|5|
+4047 INFO |SetCal|PowerGoalMode|0|
+4047 INFO |SetCal|2gFreq|2412,2437,2462|
+4047 INFO |SetCal|5gFreq|5180,5260,5320,5500,5600,5700,5785,5825|
+4047 INFO |SetCal|resetUnusedPiers|1|
+[0] 6024 INFO Free memory for initialization and calibration is 43024192 (43030336 - 6144) bytes.
+[0] 6000 INFO Loaded card.
+6100 INFO |reference|0x3112|XB112|XB112-035|0x0200|
+6100 INFO |reference|0x3113|XB113|XB113-024|0x0203|
+6100 INFO |reference|0x3113|XB113|XB113B-112|0x0203|
+6100 INFO |reference|0x3114|XB114|XB114-235|0x0204|
+6100 INFO |reference|0x3123|XB116|XB116-710|0x0230|
+6100 INFO |reference|0xa111|AP111|AP111|0x0206|
+6100 INFO |reference|0x30a4|HB97|HB97|0x0152|
+6100 INFO |reference|0x3116|HB116|HB116-041|0x0209|
+6100 INFO |reference|0x3110|HB112|HB112-241|0x0205|
+6100 INFO |reference|0x3112|CUS152|cus152-040|0x0201|
+6100 INFO |reference|0x1628|cus166|cus166-041|0x0212|
+6100 INFO |reference|0x1628|cus171|cus171-241|0x0213|
+6100 INFO |reference|0x3113|CUS191|CUS191-010|0x0223|
+6100 INFO |reference|0x3113|CUS191-710|CUS191-710|0x0223|
+6100 INFO |reference|0x3118|HB125|HB125|0x0215|
+6100 INFO |reference|0x3119|WB225|WB225|0x0216|
+6100 INFO |reference|0xa123|AP123|AP123-030|0x0211|
+6100 INFO |reference|0xa124|MI124|MI124-020|0x0214|
+6100 INFO |reference|0xa125|AP124|AP124-025|0x0250|
+6100 INFO |reference|0x3120|tb567|tb567-010|0x0218|
+6100 INFO |reference|0x3121|tb568|tb568-010|0x0219|
+6100 INFO |reference|0xa120|DB120|DB120-030|0x0222|
+6100 INFO |reference|0xa120|DB120-730|DB120-730|0x0233|
+6100 INFO |reference|0xa120|DB120|DB120-840|0x0234|
+6100 INFO |reference|0xa120|DB120|DB120-940|0x0235|
+6100 INFO |reference|0xa120|DB120-640|DB120-640|0x0236|
+6100 INFO |reference|0xa126|APH126|APH126-010|0x0225|
+6100 INFO |reference|0xa126|APH126|APH126-020|0x0225|
+6100 INFO |reference|0xa128|APH128|APH128-010|0x0226|
+6100 INFO |reference|0xa129|AP120|AP120-010|0x0237|
+6100 INFO |reference|0xa132|REH132A|REH132-011|0x0232|
+6100 INFO |reference|0xa132|REH132A|REH132-020|0x0232|
+6100 INFO |reference|0x3124|WB222|WB222|0x0224|
+6100 INFO |reference|0x3125|MD222|MD222|0x0231|
+6100 INFO |reference|0x3126|CUS210|CUS210|0x0236|
+6100 INFO |reference|0x312c|CUS229|CUS229|0x0256|
+6100 INFO |reference|0x6402|DB132|DB132|0x0101|
+6100 INFO |reference|0x6403|UB134|UB134|0x0102|
+6100 INFO |reference|0x6403|UB133|UB133|0x0103|
+6100 INFO |reference|0x6403|CUS216|CUS216|0x0104|
+6100 INFO |reference|0x6403|WB282|WB282|0x0105|
+6100 INFO |reference|0x6403|WB292|WB292|0x0106|
+6100 INFO |reference|0x6403|WB131|WB131|0x0107|
+6100 INFO |reference|0x6403|CUS228|CUS228|0x0108|
+6100 INFO |reference|0x6403|NFA282|NFA282|0x0109|
+6100 INFO |reference|0x6601|DB142|DB142|0x0160|
+6100 INFO |reference|0x6602|DB143|DB143|0x0161|
+6100 INFO |reference|0x6603|UB144|UB144|0x0162|
+6100 INFO |reference|0x6604|UB136|UB136|0x0164|
+6100 INFO |reference|0x6605|SP141|SP141|0x0165|
+6100 INFO |reference|0x6605|SP143|SP143|0x0166|
+6100 INFO |reference|0x6606|SP144|SP144|0x0167|
+6100 INFO |reference|0x6607|DV144|DV144|0x0168|
+6100 INFO |reference|0x6610|SP241|SP241|0x0170|
+6100 INFO |reference|0x6611|SP242|SP242|0x0171|
+6100 INFO |reference|0x3025|WB334|WB334-010|0x0220|
+6100 INFO |reference|0x3026|WB335|WB335|0x0221|
+6100 INFO |reference|0x3027|WB335B|WB335B|0x0268|
+6100 INFO |reference|0x3028|CUS247|CUS247|0x0272|
+6100 INFO |reference|0x3029|CUS252|CUS252|0x0279|
+6100 INFO |reference|0x302a|MD335|MD335|0x0283|
+6100 INFO |reference|0x302b|NFA335|NFA335|0x0284|
+6100 INFO |reference|0x302c|NFA335B|NFA335B|0x0287|
+6100 INFO |reference|0xa135|AP135|AP135-010|0x0244|
+6100 INFO |reference|0xa135|AP135|AP135-020|0x0244|
+6100 INFO |reference|0xa137|AP135|AP135-120|0x0252|
+6100 INFO |reference|0xa139|AP135|AP135-620|0x0273|
+6100 INFO |reference|0xa140|AP135|AP135-720|0x0274|
+6100 INFO |reference|0x3127|CUS217|CUS217|0x0241|
+6100 INFO |reference|0x312b|CUS242|CUS242|0x0251|
+6100 INFO |reference|0x3128|CUS225|CUS225|0x0243|
+6100 INFO |reference|0x3227|CUS227|CUS227-010|0x0227|
+6100 INFO |reference|0x3227|CUS227|CUS227-020|0x0227|
+6100 INFO |reference|0x3227|CUS227|CUS227-030|0x0227|
+6100 INFO |reference|0x3227|CUS227|CUS227-040|0x0227|
+6100 INFO |reference|0x3227|CUS227|CUS227-140|0x0227|
+6100 INFO |reference|0x3227|CUS227|CUS227-240|0x0227|
+6100 INFO |reference|0x3227|CUS227|CUS227-340|0x0227|
+6100 INFO |reference|0xa132|AP132|AP132-010|0x0238|
+6100 INFO |reference|0xa132|AP132|AP132-020|0x0238|
+6100 INFO |reference|0xa136|AP136|AP136-010|0x0239|
+6100 INFO |reference|0xa136|AP136|AP136-020|0x0239|
+6100 INFO |reference|0xa136|AP136|AP136-022|0x0239|
+6100 INFO |reference|0xa136|AP136-720|AP136-711|0x0242|
+6100 INFO |reference|0xa136|AP136-720|AP136-721|0x0242|
+6100 INFO |reference|0xa136|AP136-720|AP136-722|0x0242|
+6100 INFO |reference|0xa138|AP138|AP138-010|0x0240|
+6100 INFO |reference|0xa131|APH131|APH131-010|0x0245|
+6100 INFO |reference|0x312d|NFA222|NFA222|0x0269|
+6100 INFO |reference|0x312e|CUS245|CUS245|0x0278|
+6100 INFO |reference|0xa143|AP143|AP143-010|0x0275|
+6100 INFO |reference|0xa143|AP143|AP143-020|0x0275|
+6100 INFO |reference|0xa143|TP143|TP143-010|0x0276|
+6100 INFO |reference|0xa143|TP143|TP143-020|0x0276|
+6100 INFO |reference|0xa143|TB707|TB707-010|0x0277|
+6100 INFO |reference|0x3141|XB141|XB141-010|0x0253|
+6100 INFO |reference|0x3143|XB143|XB143-010|0x0254|
+6100 INFO |reference|0x3143|XB143|XB143-110|0x0254|
+6100 INFO |reference|0x3223|CUS223|CUS223|0x0246|
+6100 INFO |reference|0x3223|CUS223|CUS223-120|0x0255|
+6100 INFO |reference|0x3223|CUS223|CUS223-620|0x0271|
+6100 INFO |reference|0x3223|CUS223|CUS223-720|0x0270|
+6100 INFO |reference|0x3226|CUS226|CUS226|0x0280|
+6100 INFO |reference|0x3342|281|WB342|0x0280|
+6100 INFO |reference|0x3344|WB344|WB344|0x0283|
+6100 INFO |reference|0x3343|282|NFA342|0x0283|
+6100 INFO |reference|0x3228|XB140|XB140|0x0278|
+6100 INFO |reference|0xa152|CUS249|CUS249-010|0x0285|
+6100 INFO |reference|0xa152|CUS249|CUS249-020|0x0285|
+6100 INFO |reference|0xa152|CUS249|CUS249-030|0x0285|
+6101 INFO Last reference design
+4047 INFO |get|Template|1|
+4047 INFO |get|SSID|0x9372|
+4047 INFO |get|OpFlags|0x3|
+4047 INFO |get|OpFlags2|0x0|
+4047 INFO |get|Mask.Tx|0x1|
+4047 INFO |get|Mask.Rx|0x1|
+
+
+********************************************
+******* Script: test_flow.art BEGINS *******
+********************************************
+7002 INFO Command file "C:\app\qualcomm\art2_ioe.win.3.2_installer-00068.1\command\test_flow.art" opened at 4198205.
+7002 INFO Command file ".\..\command\common\test_flow-inst.art" opened at 4198205.
+7002 INFO Command file ".\..\command\common\test_init.art" opened at 4198205.
+7000 INFO Command file ".\..\command\common\test_init.art" completed at 4198220. Elapsed time was 15 ms.
+7002 INFO Command file ".\..\command\test_setup\test_flow_flags.art" opened at 4198220.
+7002 INFO Command file ".\..\command\test_setup\test_flow_flags_tx.art" opened at 4198220.
+4023 ERROR Can't find variable "$equipment.vsa.chains".
+4033 ERROR Trouble evaluating equation: "conversion error on $equipment.vsa.chains".
+4033 ERROR Trouble evaluating equation: "unknown operator".
+4023 ERROR Can't find variable "$equipment.vsa.chains".
+4033 ERROR Trouble evaluating equation: "conversion error on $equipment.vsa.chains".
+4033 ERROR Trouble evaluating equation: "unknown operator".
+4023 ERROR Can't find variable "$equipment.vsa.chains".
+4033 ERROR Trouble evaluating equation: "conversion error on $equipment.vsa.chains".
+4033 ERROR Trouble evaluating equation: "unknown operator".
+7000 INFO Command file ".\..\command\test_setup\test_flow_flags_tx.art" completed at 4198236. Elapsed time was 16 ms.
+7002 INFO Command file ".\..\command\test_setup\test_flow_flags_rx.art" opened at 4198236.
+4023 ERROR Can't find variable "$equipment.vsg.chains".
+4033 ERROR Trouble evaluating equation: "conversion error on $equipment.vsg.chains".
+4033 ERROR Trouble evaluating equation: "unknown operator".
+7000 INFO Command file ".\..\command\test_setup\test_flow_flags_rx.art" completed at 4198236. Elapsed time was 0 ms.
+7002 INFO Command file ".\..\command\test_setup\test_flow_flags_bt.art" opened at 4198236.
+7000 INFO Command file ".\..\command\test_setup\test_flow_flags_bt.art" completed at 4198252. Elapsed time was 16 ms.
+7000 INFO Command file ".\..\command\test_setup\test_flow_flags.art" completed at 4198252. Elapsed time was 32 ms.
+7002 INFO Command file ".\..\command\common\testRef.art" opened at 4198252.
+4003 INFO Please select test by:
+4003 INFO 		0: SSID
+4003 INFO 		1: refID
+4003 INFO 		2: Atheros_label
+7203 INFO Please supply a value for variable "BoardIDType":  
+>>> idType(0)
+7205 INFO Thank you for supplying the value "0" for variable BoardIDType.
+4047 INFO |get|SSID|0x9372|
+4003 INFO   
+4003 INFO Here are supported SSID, refID, HWrev:
+6100 INFO |reference|0x3112|XB112|XB112-035|0x0200|
+6100 INFO |reference|0x3113|XB113|XB113-024|0x0203|
+6100 INFO |reference|0x3113|XB113|XB113B-112|0x0203|
+6100 INFO |reference|0x3114|XB114|XB114-235|0x0204|
+6100 INFO |reference|0x3123|XB116|XB116-710|0x0230|
+6100 INFO |reference|0xa111|AP111|AP111|0x0206|
+6100 INFO |reference|0x30a4|HB97|HB97|0x0152|
+6100 INFO |reference|0x3116|HB116|HB116-041|0x0209|
+6100 INFO |reference|0x3110|HB112|HB112-241|0x0205|
+6100 INFO |reference|0x3112|CUS152|cus152-040|0x0201|
+6100 INFO |reference|0x1628|cus166|cus166-041|0x0212|
+6100 INFO |reference|0x1628|cus171|cus171-241|0x0213|
+6100 INFO |reference|0x3113|CUS191|CUS191-010|0x0223|
+6100 INFO |reference|0x3113|CUS191-710|CUS191-710|0x0223|
+6100 INFO |reference|0x3118|HB125|HB125|0x0215|
+6100 INFO |reference|0x3119|WB225|WB225|0x0216|
+6100 INFO |reference|0xa123|AP123|AP123-030|0x0211|
+6100 INFO |reference|0xa124|MI124|MI124-020|0x0214|
+6100 INFO |reference|0xa125|AP124|AP124-025|0x0250|
+6100 INFO |reference|0x3120|tb567|tb567-010|0x0218|
+6100 INFO |reference|0x3121|tb568|tb568-010|0x0219|
+6100 INFO |reference|0xa120|DB120|DB120-030|0x0222|
+6100 INFO |reference|0xa120|DB120-730|DB120-730|0x0233|
+6100 INFO |reference|0xa120|DB120|DB120-840|0x0234|
+6100 INFO |reference|0xa120|DB120|DB120-940|0x0235|
+6100 INFO |reference|0xa120|DB120-640|DB120-640|0x0236|
+6100 INFO |reference|0xa126|APH126|APH126-010|0x0225|
+6100 INFO |reference|0xa126|APH126|APH126-020|0x0225|
+6100 INFO |reference|0xa128|APH128|APH128-010|0x0226|
+6100 INFO |reference|0xa129|AP120|AP120-010|0x0237|
+6100 INFO |reference|0xa132|REH132A|REH132-011|0x0232|
+6100 INFO |reference|0xa132|REH132A|REH132-020|0x0232|
+6100 INFO |reference|0x3124|WB222|WB222|0x0224|
+6100 INFO |reference|0x3125|MD222|MD222|0x0231|
+6100 INFO |reference|0x3126|CUS210|CUS210|0x0236|
+6100 INFO |reference|0x312c|CUS229|CUS229|0x0256|
+6100 INFO |reference|0x6402|DB132|DB132|0x0101|
+6100 INFO |reference|0x6403|UB134|UB134|0x0102|
+6100 INFO |reference|0x6403|UB133|UB133|0x0103|
+6100 INFO |reference|0x6403|CUS216|CUS216|0x0104|
+6100 INFO |reference|0x6403|WB282|WB282|0x0105|
+6100 INFO |reference|0x6403|WB292|WB292|0x0106|
+6100 INFO |reference|0x6403|WB131|WB131|0x0107|
+6100 INFO |reference|0x6403|CUS228|CUS228|0x0108|
+6100 INFO |reference|0x6403|NFA282|NFA282|0x0109|
+6100 INFO |reference|0x6601|DB142|DB142|0x0160|
+6100 INFO |reference|0x6602|DB143|DB143|0x0161|
+6100 INFO |reference|0x6603|UB144|UB144|0x0162|
+6100 INFO |reference|0x6604|UB136|UB136|0x0164|
+6100 INFO |reference|0x6605|SP141|SP141|0x0165|
+6100 INFO |reference|0x6605|SP143|SP143|0x0166|
+6100 INFO |reference|0x6606|SP144|SP144|0x0167|
+6100 INFO |reference|0x6607|DV144|DV144|0x0168|
+6100 INFO |reference|0x6610|SP241|SP241|0x0170|
+6100 INFO |reference|0x6611|SP242|SP242|0x0171|
+6100 INFO |reference|0x3025|WB334|WB334-010|0x0220|
+6100 INFO |reference|0x3026|WB335|WB335|0x0221|
+6100 INFO |reference|0x3027|WB335B|WB335B|0x0268|
+6100 INFO |reference|0x3028|CUS247|CUS247|0x0272|
+6100 INFO |reference|0x3029|CUS252|CUS252|0x0279|
+6100 INFO |reference|0x302a|MD335|MD335|0x0283|
+6100 INFO |reference|0x302b|NFA335|NFA335|0x0284|
+6100 INFO |reference|0x302c|NFA335B|NFA335B|0x0287|
+6100 INFO |reference|0xa135|AP135|AP135-010|0x0244|
+6100 INFO |reference|0xa135|AP135|AP135-020|0x0244|
+6100 INFO |reference|0xa137|AP135|AP135-120|0x0252|
+6100 INFO |reference|0xa139|AP135|AP135-620|0x0273|
+6100 INFO |reference|0xa140|AP135|AP135-720|0x0274|
+6100 INFO |reference|0x3127|CUS217|CUS217|0x0241|
+6100 INFO |reference|0x312b|CUS242|CUS242|0x0251|
+6100 INFO |reference|0x3128|CUS225|CUS225|0x0243|
+6100 INFO |reference|0x3227|CUS227|CUS227-010|0x0227|
+6100 INFO |reference|0x3227|CUS227|CUS227-020|0x0227|
+6100 INFO |reference|0x3227|CUS227|CUS227-030|0x0227|
+6100 INFO |reference|0x3227|CUS227|CUS227-040|0x0227|
+6100 INFO |reference|0x3227|CUS227|CUS227-140|0x0227|
+6100 INFO |reference|0x3227|CUS227|CUS227-240|0x0227|
+6100 INFO |reference|0x3227|CUS227|CUS227-340|0x0227|
+6100 INFO |reference|0xa132|AP132|AP132-010|0x0238|
+6100 INFO |reference|0xa132|AP132|AP132-020|0x0238|
+6100 INFO |reference|0xa136|AP136|AP136-010|0x0239|
+6100 INFO |reference|0xa136|AP136|AP136-020|0x0239|
+6100 INFO |reference|0xa136|AP136|AP136-022|0x0239|
+6100 INFO |reference|0xa136|AP136-720|AP136-711|0x0242|
+6100 INFO |reference|0xa136|AP136-720|AP136-721|0x0242|
+6100 INFO |reference|0xa136|AP136-720|AP136-722|0x0242|
+6100 INFO |reference|0xa138|AP138|AP138-010|0x0240|
+6100 INFO |reference|0xa131|APH131|APH131-010|0x0245|
+6100 INFO |reference|0x312d|NFA222|NFA222|0x0269|
+6100 INFO |reference|0x312e|CUS245|CUS245|0x0278|
+6100 INFO |reference|0xa143|AP143|AP143-010|0x0275|
+6100 INFO |reference|0xa143|AP143|AP143-020|0x0275|
+6100 INFO |reference|0xa143|TP143|TP143-010|0x0276|
+6100 INFO |reference|0xa143|TP143|TP143-020|0x0276|
+6100 INFO |reference|0xa143|TB707|TB707-010|0x0277|
+6100 INFO |reference|0x3141|XB141|XB141-010|0x0253|
+6100 INFO |reference|0x3143|XB143|XB143-010|0x0254|
+6100 INFO |reference|0x3143|XB143|XB143-110|0x0254|
+6100 INFO |reference|0x3223|CUS223|CUS223|0x0246|
+6100 INFO |reference|0x3223|CUS223|CUS223-120|0x0255|
+6100 INFO |reference|0x3223|CUS223|CUS223-620|0x0271|
+6100 INFO |reference|0x3223|CUS223|CUS223-720|0x0270|
+6100 INFO |reference|0x3226|CUS226|CUS226|0x0280|
+6100 INFO |reference|0x3342|281|WB342|0x0280|
+6100 INFO |reference|0x3344|WB344|WB344|0x0283|
+6100 INFO |reference|0x3343|282|NFA342|0x0283|
+6100 INFO |reference|0x3228|XB140|XB140|0x0278|
+6100 INFO |reference|0xa152|CUS249|CUS249-010|0x0285|
+6100 INFO |reference|0xa152|CUS249|CUS249-020|0x0285|
+6100 INFO |reference|0xa152|CUS249|CUS249-030|0x0285|
+6101 INFO Last reference design
+4003 INFO 		
+4003 INFO Please re-select by:
+4003 INFO 		0: SSID
+4003 INFO 		1: change Board select Type
+7203 INFO Please supply a value for variable "reSelect":  
+7205 INFO Thank you for supplying the value "0" for variable reSelect.
+7203 INFO Please supply a value for variable "ssid":  
+7205 INFO Thank you for supplying the value "0x6611" for variable ssid.
+4003 INFO MAC address format: xx:xx:xx:xx:xx:xx
+7203 INFO Please supply a value for variable "macaddress":  
+7205 INFO Thank you for supplying the value "AA:BB:CC:DD:EE:FF" for variable macaddress.
+7002 INFO Command file ".\..\command\common\logLabel.art" opened at 4224054.
+7000 INFO Command file ".\..\command\common\logLabel.art" completed at 4224054. Elapsed time was 0 ms.
+7000 INFO Command file ".\..\command\common\testRef.art" completed at 4224054. Elapsed time was 25802 ms.
+7200 INFO refName = SP242
+7002 INFO Command file ".\..\command\test_setup\setup_tx.art" opened at 4224054.
+7000 INFO Command file ".\..\command\test_setup\setup_tx.art" completed at 4224085. Elapsed time was 31 ms.
+7002 INFO Command file ".\..\command\test_setup\limit_tx.art" opened at 4224085.
+7000 INFO Command file ".\..\command\test_setup\limit_tx.art" completed at 4224085. Elapsed time was 0 ms.
+7002 INFO Command file ".\..\command\refDesigns\SP242\setup_overwrite.art" opened at 4224085.
+7200 INFO refdesign = SP242
+4023 ERROR Can't find variable "$equipment.vsg.chains".
+4033 ERROR Trouble evaluating equation: "conversion error on $equipment.vsg.chains".
+4033 ERROR Trouble evaluating equation: "unknown operator".
+7000 INFO Command file ".\..\command\refDesigns\SP242\setup_overwrite.art" completed at 4224101. Elapsed time was 16 ms.
+[0] 6024 INFO Free memory for initialization and calibration is 43024192 (43030336 - 6144) bytes.
+[0] 6000 INFO Loaded card.
+4003 INFO  load 
+7002 INFO Command file ".\..\command\common\testBand.art" opened at 4224226.
+7000 INFO Command file ".\..\command\common\testBand.art" completed at 4224226. Elapsed time was 0 ms.
+7002 INFO Command file ".\..\command\test_tx\TxTest.art" opened at 4224226.
+7002 INFO Command file ".\..\command\setupcal_scheme0.art" opened at 4224241.
+7000 INFO Command file ".\..\command\setupcal_scheme0.art" completed at 4224241. Elapsed time was 0 ms.
+4023 ERROR Can't find variable "$equipment.vsa.chains".
+4033 ERROR Trouble evaluating equation: "conversion error on $equipment.vsa.chains".
+4033 ERROR Trouble evaluating equation: "unknown operator".
+7002 INFO Command file ".\..\command\refDesigns\SP242\SP242.ref" opened at 4224241.
+7000 INFO Command file ".\..\command\refDesigns\SP242\SP242.ref" completed at 4224257. Elapsed time was 16 ms.
+4047 INFO |SetCal|scheme|0|
+4047 INFO |SetCal|CalibrationAttempt|5|
+4047 INFO |SetCal|PowerGoalMode|0|
+4047 INFO |SetCal|2gFreq|2412,2437,2462|
+4047 INFO |SetCal|5gFreq|5180,5260,5320,5500,5600,5700,5785,5825|
+4047 INFO |SetCal|resetUnusedPiers|1|
+7002 INFO Command file ".\..\command\common\testBand.art" opened at 4224382.
+7000 INFO Command file ".\..\command\common\testBand.art" completed at 4224382. Elapsed time was 0 ms.
+7002 INFO Command file ".\..\command\test_tx\TxInit.art" opened at 4224382.
+7200 INFO txChains = 1
+7000 INFO Command file ".\..\command\test_tx\TxInit.art" completed at 4224397. Elapsed time was 15 ms.
+7002 INFO Command file ".\..\command\common\warmup.art" opened at 4224397.
+2008 ERROR No attenuators.
+4047 INFO |get|Mask.Tx|0x1|
+7000 INFO Command file ".\..\command\common\warmup.art" completed at 4236940. Elapsed time was 12543 ms.
+7002 INFO Command file ".\..\command\test_tx\TxPowerCal_2g.art" opened at 4236940.
+2008 ERROR No attenuators.
+2009 ERROR No power meter.
+[0] 2047 ERROR Calibration failed for chain 1. txgain=0, power=-1000000000000000000000000000000.0.
+4002 INFO 
+
+
+*********************************
+* 2GHz Calibration Coefficients *
+*********************************
+4049 INFO  frequency   txchain    txgain     power     pcorr   voltage      temp
+4003 INFO       2412         1        85-1000000000000000000000000000000.02147483647         0       144
+4003 INFO       2412         1         0-1000000000000000000000000000000.02147483647         0       143
+4004 INFO ----------
+4004 INFO cal txch=1;freq=2412;r=t0;calpoint=0;tgtpwr=17.000000;power=?
+4004 INFO Elapsed time = 983 ms
+4004 INFO Raw data is in .\..\log\161103115843.log.
+4004 INFO The above report was produced on 11-03-16 at 11:58:44.
+7000 INFO Command file ".\..\command\test_tx\TxPowerCal_2g.art" completed at 4237923. Elapsed time was 983 ms.
+4003 INFO 	PT test Done!
+7000 INFO Command file ".\..\command\test_tx\TxTest.art" completed at 4237938. Elapsed time was 13712 ms.
+7200 INFO Test.Error = 2047
+4003 INFO       Test Error        FAIL
+4003 INFO ERROR	aa:bb:cc:dd:ee:ff	SP242-030-s0009
+[0] 6002 INFO Unloaded card.
+4003 INFO Done Test!
+7000 INFO Command file ".\..\command\common\test_flow-inst.art" completed at 4238141. Elapsed time was 39936 ms.
+7000 INFO Command file "C:\app\qualcomm\art2_ioe.win.3.2_installer-00068.1\command\test_flow.art" completed at 4238141. Elapsed time was 39936 ms.
+
+
+*********************************************************
+******* Script: test_flow.art  DONE (39936 msecs) *******
+*********************************************************
