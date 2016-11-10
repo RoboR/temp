@@ -1,0 +1,1 @@
+make: *** No rule to make target '/Apps/Qualcomm/qca4010-tx-1-2_qca_oem_ext.git/target/lib/libadc.a', needed by '/Apps/Qualcomm/qca4010-tx-1-2_qca_oem_ext.git/target/image/iot_demo.out'.  Stop.
