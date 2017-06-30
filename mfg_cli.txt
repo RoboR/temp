@@ -9,13 +9,7 @@ OTPTLV tag=11 has 35 bytes
 
 C:\Apps\Qualcomm\qca4020-or-1-0_qca_oem_sdk-mfg-545bd474bdcf3907cb74ea84fbc1429a
 a28823f1\qca4020-or-1-0_qca_oem_sdk-mfg.git\target\quartz\mfg\m4agent\tool>mfg_t
-ool.exe --comm 38 --otptlv --write --tag=11 --file=BOARD_SN.bin
+ool.exe --comm 38 --otptlv --read --tag=1
+OTPTLV tag=1 has 6 bytes
 
-C:\Apps\Qualcomm\qca4020-or-1-0_qca_oem_sdk-mfg-545bd474bdcf3907cb74ea84fbc1429a
-a28823f1\qca4020-or-1-0_qca_oem_sdk-mfg.git\target\quartz\mfg\m4agent\tool>mfg_t
-ool.exe --comm 38 --otptlv --read --tag=11
-OTPTLV tag=11 has 35 bytes
-
-32 35 39 38 36 36 30 31 30 33 31 37 46 30 30 30
-37 36 38 50 58 35 32 30 31 37 30 31 31 37 32 33
-30 34 55
+ab 89 67 45 23 01
